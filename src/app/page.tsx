@@ -46,7 +46,7 @@ const mesProjets = [
     details: "Développé en autonomie pour explorer mes capacitées. Le joueur doit viser physiquement ces cibles (les peluches ou les ballons) pour avoir un maximum de points",
     tags: ["Unity", "AR", "Mobile"],
     image: "/JeuDeTire.png",
-    lienDemo: "/tirer2demo.gif",
+    lienDemo: "/tirer-demo.mp4",
     contexte: "Solo",
     role: "Conception & Développement complet"
   },
@@ -106,7 +106,7 @@ const mesProjets = [
     details: "Exploration d'îles tropicales, navigation en mer et combats dynamiques. Ce projet met en valeur la création d'environnements 3D, la gestion de la caméra et l'intégration de mécaniques de gameplay immersives.",
     tags: ["Unity 3D", "C#", "3D"],
     image: "/Pirate.png",
-    lienDemo: "/pirate2-demo.gif", 
+    lienDemo: "/pirate2-demo.mp4", 
     contexte: "Solo",
     role: "Conception & Développement complet"
   },
@@ -1047,7 +1047,7 @@ export default function Home() {
               <span className="font-bold text-lg md:text-xl text-stone-700 break-all">marine.roussin83330@gmail.com</span>
             </a>
           </div>
-          <form action="TON_LIEN_FORMSPREE" method="POST" className="w-full lg:w-1/2 flex flex-col gap-5 bg-[#FDFBF9] p-8 md:p-10 rounded-[2rem] border-2 border-[#E8DCCB] shadow-sm">
+          <form action="https://formspree.io/f/xrpeqwyy" method="POST" className="w-full lg:w-1/2 flex flex-col gap-5 bg-[#FDFBF9] p-8 md:p-10 rounded-[2rem] border-2 border-[#E8DCCB] shadow-sm">
             <div className="flex flex-col gap-2">
               <label htmlFor="nom" className="font-bold text-stone-700 ml-2">Votre nom</label>
               <input type="text" id="nom" name="nom" required className="p-4 rounded-xl border-2 border-[#E8DCCB] bg-white focus:border-[#C18765] focus:outline-none focus:ring-4 focus:ring-[#C18765]/20 transition-all font-medium text-stone-700 cursor-text" placeholder="Ex: John Doe" />
